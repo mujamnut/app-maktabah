@@ -1,0 +1,56 @@
+name: book_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^1.10.7
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  provider: ^6.0.5
+  easy_localization: ^3.0.1
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.66.0
+  mobile_scanner: ^3.5.2
+  # flutter_barcode_scanner: ^2.0.0  # Removed due to namespace issues
+  community_charts_flutter: ^1.0.0
+  google_fonts: ^6.1.0
+  uuid: ^4.5.1
+  font_awesome_flutter: ^10.8.0
+  pdf: ^3.10.8
+  printing: ^5.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/logo_mrj.jpg
+    - book_app/assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf
+    - assets/langs/
+  
